@@ -6,7 +6,7 @@
 /*   By: tatahere <tatahere@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/14 19:39:36 by tatahere          #+#    #+#             */
-/*   Updated: 2025/04/15 21:41:32 by tatahere         ###   ########.fr       */
+/*   Updated: 2025/05/03 16:51:07 by tatahere         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,7 +88,6 @@
 int	main(void)
 {
     DiamondTrap	Diamond1;
-	return (0);
 	DiamondTrap	Diamond2("TEST");
     DiamondTrap	Diamond3(Diamond2);
 
@@ -106,6 +105,7 @@ int	main(void)
     Diamond3.beRepaired(20);
     Diamond2.beRepaired(20);
 
+	Diamond2.whoAmI();
 //    Diamond2.whoAmI();
 //    Diamond3.whoAmI();
 }

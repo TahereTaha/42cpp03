@@ -6,7 +6,7 @@
 /*   By: tatahere <tatahere@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/14 21:25:39 by tatahere          #+#    #+#             */
-/*   Updated: 2025/04/16 18:27:47 by tatahere         ###   ########.fr       */
+/*   Updated: 2025/05/03 16:23:30 by tatahere         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,8 @@ class DiamondTrap : public ScavTrap, public FragTrap
 		DiamondTrap & operator = (const DiamondTrap & src);
 		~DiamondTrap(void);
 
+		void	attack(const std::string & target);
+		void	whoAmI(void) const ;
 };
 
 #endif
